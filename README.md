@@ -2,6 +2,7 @@
 Simple bot that tracks current crypto prices on command. Bot is written with Python. CryptoCompare API is the data source for the bot.
 By default the bot is showing information about current crypto prices in BGN & USD and also what were changes in percentage for the last 1h and 24h.
 
+Initial idea and solution came out from [this article by Section.io](https://www.section.io/engineering-education/cryptocurrency-tracking-telegram-bot/)
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
