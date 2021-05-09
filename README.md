@@ -17,8 +17,10 @@ For easier work you can use some Python exe if you need to debug. The one used f
 ### Installation / Usage
 
 If you want to run the bot, you need to adjust it's configuration. There are 2 key files used for adjusting the bot. In them you can configure: 
-* **Token** provided by BotFather should be added in [token.txt](TelegramCryptoTracker/token.txt) file.
+* **Token** provided by BotFather should be added either in ENV variables OR [token.txt](TelegramCryptoTracker/token.txt) file. By default we're using env vars, but this can be changes inside [telegramCryptoTrackingBot.py](TelegramCryptoTracker/telegramCryptoTrackingBot.py)
 * **List of coints** can be adjusted in [coins.txt](TelegramCryptoTracker/coins.txt) file.
+
+**NOTE**: The token inside token.txt has been revoked, it's staying there just so that users can get an idea of what to insert.
 
 Also, **if you want to change the default currencies** you can do so in [tracker.py](TelegramCryptoTracker/tracker.py) inside crypto_data url
 
@@ -33,7 +35,7 @@ USD, BGN
 ```
 
 ### Bot Commands
-The bot is triggered by a single command that can be changed inside [telegramCryptoTrackingBot.py](MessageMirrorerBot/telegramCryptoTrackingBot.py)
+The bot is triggered by a single command that can be changed inside [telegramCryptoTrackingBot.py](TelegramCryptoTracker/telegramCryptoTrackingBot.py)
 
 **/track**-> type this command in a shared chat with the bot and it will print current prices
 

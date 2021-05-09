@@ -1,3 +1,4 @@
+import os
 import telegram
 from telegram.ext import Updater
 from telegram.ext import CommandHandler
@@ -10,7 +11,8 @@ def read_token():
         lines = f.readlines()
         return lines[0].strip()
 
-telegram_bot_token = read_token()
+# change to = read_token() if you want to read token from file
+telegram_bot_token = os.getenv("TOKEN")
 
 updater = Updater(token=telegram_bot_token, use_context=True)
 dispatcher = updater.dispatcher
