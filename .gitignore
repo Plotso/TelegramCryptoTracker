@@ -1,6 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -127,3 +130,23 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+.idea/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
